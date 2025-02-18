@@ -2,6 +2,15 @@
 
 void check_divisibility(int num) {
     // Expected output is "TRUE" or "FALSE"
+    if(num%5==0)
+    {
+        printf("True");
+    }
+    else
+    {
+        printf("False");
+    }
+
 }
 
 int main() {
