@@ -4,11 +4,11 @@ void check_divisibility(int num) {
     // Expected output is "TRUE" or "FALSE"
     if(num%5==0)
     {
-        return TRUE;
+        return "TRUE"
     }
     else
     {
-        return FALSE;
+        return "FALSE"
     }
 
 }
